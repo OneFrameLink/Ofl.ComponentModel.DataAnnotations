@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A62CEBE9-9132-4333-8953-A9693708CAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6F722AB0-1CDF-4561-AE1E-693E2383D9A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.ComponentModel.DataAnnotations", "src\Ofl.ComponentModel.DataAnnotations\Ofl.ComponentModel.DataAnnotations.csproj", "{0340A304-DFE0-464A-933C-420DF94235E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.ComponentModel.DataAnnotations.Tests", "test\Ofl.ComponentModel.DataAnnotations.Tests\Ofl.ComponentModel.DataAnnotations.Tests.csproj", "{76469D1F-B029-4738-8E36-1666A0ED08B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{7CFAE406-79A1-478F-8708-84009A169FB5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.ComponentModel.DataAnnotations.sln.DotSettings = Ofl.ComponentModel.DataAnnotations.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|x64.Build.0 = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|x64.ActiveCfg = Release|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|x64.Build.0 = Release|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{0340A304-DFE0-464A-933C-420DF94235E3}.Release|x86.Build.0 = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|x64.Build.0 = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{76469D1F-B029-4738-8E36-1666A0ED08B2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0340A304-DFE0-464A-933C-420DF94235E3} = {A62CEBE9-9132-4333-8953-A9693708CAEE}
+		{76469D1F-B029-4738-8E36-1666A0ED08B2} = {6F722AB0-1CDF-4561-AE1E-693E2383D9A3}
+	EndGlobalSection
+EndGlobal
