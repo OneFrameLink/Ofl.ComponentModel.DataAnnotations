@@ -85,13 +85,6 @@ nuget:
   # disable publishing of .nupkg artifacts to
   # account/project feeds for pull request builds
   disable_publish_on_pr: true
-  
-#--------------------------------------------------
-# Artifact configuration
-#--------------------------------------------------
-artifacts:  
-  - path: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'
-    name: NuGet
 
 #--------------------------------------------------
 # Deploy NuGet
