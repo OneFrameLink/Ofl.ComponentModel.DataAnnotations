@@ -64,14 +64,6 @@ before_build:
 #--------------------------------------------------
 test_script:
    - dotnet test test\%APPVEYOR_PROJECT_NAME%.Tests\%APPVEYOR_PROJECT_NAME%.Tests.csproj
-
-#--------------------------------------------------
-# Build hooks - after
-#--------------------------------------------------
-after_build:
-# NOTE: "dotnet pack" is not supported yet, as per
-# https://github.com/NuGet/Home/issues/4491
-   - dotnet pack src\%APPVEYOR_PROJECT_NAME%\%APPVEYOR_PROJECT_NAME%.csproj
  
 #--------------------------------------------------
 # Build hooks - on_success
@@ -109,6 +101,7 @@ deploy:
   api_key:
     secure: NkczEiXqPCbJkogq7nWCt00Tno/puiOW7LrjwDyctSP7UQAsV4IkB91iH0IUCYyb
   artifact: NuGet
+  skip_symbols: false
   
 #--------------------------------------------------
 # Notifications
